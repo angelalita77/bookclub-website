@@ -1,0 +1,41 @@
+body,
+html {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+nav>ul {
+    top: 0;
+    display: flex;
+    list-style: none;
+    padding: 0.5em 1em;
+    background-color: rgb(139, 176, 240);
+    margin: 0;
+    align-items: center;
+
+}
+
+#btns {
+    margin-left: auto;
+    margin-right: 1.5em;
+}
+
+#imgContainer {
+    width: auto;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#imgContainer img{
+    object-fit: none;
+    border: 3px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+li>img {
+    height: 50px;
+}
