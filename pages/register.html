@@ -18,44 +18,85 @@
             <li>SignIn/Up</li>
         </ul>
     </nav>
+    <br>
+    <h2> Membership Registration Form </h2>
+    <!-- Registration Container -->
 
-    <!-- Registration Contain -->
+
+
     <fieldset>
-        <legend>Membership Registration</legend>
-        <label>First Name</label>
-        <input type="text" />
-        <label>Last Name</label>
-        <input type="text" /> <select name="title">
-            <option value="Ms">Ms.</option>
-            <option value="Mrs">Mrs.</option>
-        </select> <br><br>
+        <legend>Join Us</legend>
+        <form action="#">
 
-        <label>Email</label>
-        <input type="email" />
-        <br><br>
+            <table>
+                <tr>
+                    <td><label for="fname">First Name:</label></td>
+                    <td><input type="text" id="fname" required /></td>
+                </tr>
+                <tr>
+                    <td> <label for="title">Title:</label></td>
+                    <td>
+                        <select id="title">
+                            <option value="Ms">Ms.</option>
+                            <option value="Mrs">Mrs.</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name</label></td>
+                    <td><input type="text" id="lname" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <fieldset>
+                            <label>What is your favorite genre?</label><br>
 
-        <fieldset>
-            <label>What is your favorite genre?</label><br>
+                            <label for="horro"><input type="checkbox">
+                                Horror
+                            </label>
 
-            <label for="horro"><input type="checkbox">
-                Horror
-            </label>
+                            <label for="scifi"><input type="checkbox">
+                                Sci-Fi
+                            </label>
 
-            <label for="scifi"><input type="checkbox">
-                Sci-Fi
-            </label>
-
-            <label for="drama"><input type="checkbox">
-                Drama
-            </label>
-        </fieldset>
-        <br>
-
-        <input type="button" value="Submit"> 
+                            <label for="drama"><input type="checkbox">
+                                Drama
+                            </label>
+                    </td>
+                </tr>
+            </table>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <br>
+
+            <input type="reset">
+
+            <input type="Submit">
+
+
+
+
+        </form>
     </fieldset>
 
 
