@@ -38,3 +38,10 @@ div#imgContainer img{
 li>img {
     height: 50px;
 }
+
+a {
+    text-decoration: none;
+}
+a:hover {
+  color: rgb(6, 186, 241);
+}
