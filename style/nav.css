@@ -1,0 +1,39 @@
+nav>ul {
+    top: 0;
+    display: flex;
+    list-style: none;
+    padding: 0.5em 1em;
+    background-color: rgb(139, 176, 240);
+    margin: 0;
+    height: 100%;
+    align-items:center;
+}
+
+nav > ul > li:nth-child(3) {
+    margin-left: auto;
+}
+
+.nav_btns {
+    border: 2px solid;
+    margin-left: 1.5rem;
+    height: 100%;
+}
+
+#imgContainer {
+    width: auto;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div#imgContainer img{
+    object-fit: none;
+    border: 3px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+li>img {
+    height: 50px;
+}
